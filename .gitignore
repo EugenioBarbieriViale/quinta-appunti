@@ -1,0 +1,6 @@
+arte/tribunale/*.aux
+arte/tribunale/*.fdb_latexmk
+arte/tribunale/*.fls
+arte/tribunale/*.log
+arte/tribunale/*.synctex.gz
+arte/tribunale/*.toc
