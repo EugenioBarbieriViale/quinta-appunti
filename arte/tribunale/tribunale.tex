@@ -2,6 +2,7 @@
 
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \graphicspath{ {./imgs/} }
 \usepackage{xurl}
 \usepackage{hyperref}
@@ -51,28 +52,78 @@ Così, un anno dopo la pubblicazione del bando, l'incarico viene affidato a \tex
 Tra le 29 ditte invitate alla licitazione privata, di cui 27 con sede a Milano, risulta vincitrice una ditta di Genova.
 
 \section{Analisi distributiva}
-\includegraphics[width=\textwidth]{pianta.jpg}
-
-L'edificio ha una pianta trapezoidale, presenta 8 cortili interni ed è diviso nel senso longitudinale in tre sezioni:
-\begin{itemize}
-  \item la Corte d'Appello, lato Porta Vittoria
-  \item il Tribunale, lati via Manara e via Freguglia
-  \item la Pretura, lato via San Barnaba
-\end{itemize}
-Ogni sezione ha un proprio ingresso esterno e uno spazio detto \textit{"ambulatorio"}. In totale le aule sono circa 40, e sono presenti anche una biblioteca, un bar e degli uffici. Le sezioni sono collegate internamente da due gallerie longitudinali parallele. \\
-Il palazzo presenta quattro piani e due piani ammezzati, e si divide verticalmente nella parte inferiore per i servizi penali e nella parte superiore per quelli civili. \\
-Al vertice sud-ovest è invece presente una torre (in figura) alta 61 metri con 7 piani, che viene impiegata come archivio. \\
+\subsection{Pianta}
+% \includegraphics[width=\textwidth]{pianta.jpg}
 \begin{center}
-\includegraphics[scale=0.2]{torre.jpg}
+  \includegraphics[scale=0.205]{pianta.jpg}
 \end{center}
 
-Scultura attilio selva
+\subsection{Spazi}
+L'edificio ha una pianta trapezoidale, presenta 8 cortili interni ed è diviso nel senso longitudinale in tre sezioni:
+\begin{itemize}
+  \item la Corte d'Appello, lato \textit{Corso di Porta Vittoria}
+  \item il Tribunale, lati \textit{via Manara} e \textit{via Freguglia}
+  \item la Pretura, lato \textit{via San Barnaba}
+\end{itemize}
+Ogni sezione ha un proprio ingresso esterno e uno spazio detto \textit{"ambulatorio"}, dal quale si può accedere alle aule della sezione. In totale le aule sono circa 40, e sono presenti anche una biblioteca, un bar e degli uffici. Le sezioni sono collegate internamente da due gallerie longitudinali parallele. \\
+Il palazzo presenta quattro piani e due piani ammezzati, e si divide verticalmente nella parte inferiore per i servizi penali e nella parte superiore per quelli civili. \\
+Al vertice sud-ovest è invece presente una torre alta 61 metri con 7 piani, che viene impiegata come archivio.
 
+\begin{figure}[h]
+  \centering
+  \subcaptionbox*{Torre}{%
+    \includegraphics[scale=0.25]{torre.jpg}%
+  }\qquad
+  \subcaptionbox*{Statua \textit{"La Giustizia"}}{%
+    \includegraphics[scale=0.45]{statua.jpg}%
+  }
+\end{figure}
+
+Nel Cortile d'Onore (numero 5 sulla pianta) è inoltre presente un'imponente statua in porfido e in marmo realizzata da Attilio Selva, intitolata \textit{"La Giustizia"}. 
 
 \newpage
 \section{Analisi strutturale}
-\section{Analisi formale}
+\subsection{Materiali}
+I materiali utilizzati sono:
+\begin{itemize}
+  \item il calcestruzzo armato per la struttura portante a pilastri
+  \item il laterizio forato per le murature d'ambito e la partizione interna
+  \item il marmo di Vallestrona per il rivestimento e le pavimentazioni
+  \item il serizzo per la zona basamentale della facciata principale
+  \item la diorite scura per la grande scalinata frontale
+\end{itemize}
 
+\subsection{Collegamenti verticali}
+\begin{itemize}
+  \item gradinata esterna che precede la facciata principale
+  \item 6 scaloni interni e numerose scale secondarie
+  \item 9 ascensori
+\end{itemize}
+
+\subsection{Prospetti}
+% \begin{figure}[h]
+%   \includegraphics[width=\textwidth]{prospetto_frontale.jpg}
+%   \caption*{Prospetto frontale}
+% \end{figure}
+\subsubsection{Prospetto frontale}
+\includegraphics[width=\textwidth]{prospetto_frontale.jpg}
+La facciata principale, imponente e austera, è aperta da un triplice portale d'accesso che precede il vestibolo di smistamento. \\
+Il portale è alto 25 metri ed è sormontato da un'epigrafe giustinianea, che è l'unico elemento decorativo del coronamento. \\
+È inoltre presente una successione a ritmo serrato di finestre alte 8 metri.
+
+
+\subsubsection{Prospetto laterale su via Manara}
+\begin{center}
+\includegraphics[scale=0.2]{prospetto_manara.jpg}
+\end{center}
+
+\subsubsection{Prospetto su via San Barnaba}
+\begin{center}
+\includegraphics[scale=0.2]{prospetto_barnaba.jpg}
+\end{center}
+
+\newpage
+\section{Analisi formale}
 
 \newpage
 \section{Disegni dei progetti non realizzati}
