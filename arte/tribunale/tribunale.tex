@@ -3,6 +3,7 @@
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{float}
 \graphicspath{ {./imgs/} }
 \usepackage{xurl}
 \usepackage{hyperref}
@@ -23,7 +24,8 @@
 \maketitle
 
 \tableofcontents
-\newpage
+
+\vspace{10em}
 
 \section{Informazioni}
 \begin{itemize}
@@ -33,16 +35,21 @@
   \item Periodo di costruzione: \textit{1932 - 1940}
   \item Architetto: \textit{Marcello Piacentini}
   \item Committenza: \textit{Comune di Milano}
-  \item Altri artisti: \textit{Mario Sironi, Carlo Carrà, Attilio Selva, Romano Romanelli}
+  \item Altri artisti: \textit{Mario Sironi, Carlo Carrà, Attilio Selva, Romano Romanelli, Corrado Vigni, Primo Conti}
   \item Area: \textit{30.000 m²}
 \end{itemize}
 
 \newpage
 \section{Storia}
+
+\vspace{1em}
+
 \subsection{Palazzo del Capitano di Giustizia}
 L'edificio, situato in \textit{piazza Cesare Beccaria}, fu costruito tra il 1570 e il 1605 e fu finanziato da \textit{Carlo Borromeo}. Denominato dal popolo milanese come \textit{"l'alberg di do compann"} per le sue due campane, tra gli anni 1870 e 1880 si cominciò a lamentare l'ineguatezza del palazzo come sede di giustizia. \\
 Le proposte e i progetti furono innumerevoli, ma si dovettero aspettare quarant'anni per trovare una soluzione. Intorno agli anni '20 fu infatti disposto il trasferimento della caserma di polizia di \textit{Santa Prassede} situatata in \textit{corso di Porta Vittoria}, fatta realizzare da \textit{Radetzky} al posto dell'omonimo monstero. \\
 In quest'area, estesa circa quanto l'attuale \textit{piazza Duomo}, si decise di edificare il futuro Palazzo di Giustizia di Milano.
+
+\vspace{1em}
 
 \subsection{Concorso}
 Il 22 aprile del 1929 (anno VIII) il Comune di Milano bandisce il concorso per il progetto del nuovo Palazzo di Giustizia di Milano. Il 4 novembre la giuria che dovrà provvedere all'assegnazione del progetto si riunisce in una sala del Politecnico. Viene convocata dal Podestà, il quale invita la giuria a \textit{"procedere nei lavori con la fascistica elasticità che il ritmo della nuova vita italiana
@@ -67,19 +74,19 @@ L'edificio ha una pianta trapezoidale, presenta 8 cortili interni ed è diviso n
 \end{itemize}
 Ogni sezione ha un proprio ingresso esterno e uno spazio detto \textit{"ambulatorio"}, dal quale si può accedere alle aule della sezione. In totale le aule sono circa 40, e sono presenti anche una biblioteca, un bar e degli uffici. Le sezioni sono collegate internamente da due gallerie longitudinali parallele. \\
 Il palazzo presenta quattro piani e due piani ammezzati, e si divide verticalmente nella parte inferiore per i servizi penali e nella parte superiore per quelli civili. \\
-Al vertice sud-ovest è invece presente una torre alta 61 metri con 7 piani, che viene impiegata come archivio.
+Al vertice sud-ovest è invece presente una torre che viene impiegata come archivio.
 
 \begin{figure}[h]
   \centering
-  \subcaptionbox*{Torre}{%
-    \includegraphics[scale=0.25]{torre.jpg}%
-  }\qquad
-  \subcaptionbox*{Statua \textit{"La Giustizia"}}{%
-    \includegraphics[scale=0.45]{statua.jpg}%
-  }
+  \includegraphics[scale=0.5]{statua.jpg}
+  \caption*{Statua \textit{"La Giustizia"}}
 \end{figure}
 
-Nel Cortile d'Onore (numero 5 sulla pianta) è inoltre presente un'imponente statua in porfido e in marmo realizzata da Attilio Selva, intitolata \textit{"La Giustizia"}. 
+Nel Cortile d'Onore (numero 5 sulla pianta) è inoltre presente un'imponente statua in porfido rosso e in marmo realizzata da Attilio Selva, intitolata \textit{"La Giustizia"}. 
+
+\vspace{1em}
+
+La copertura è in parte a terrazza e in parte a falda.
 
 \newpage
 \section{Analisi strutturale}
@@ -100,30 +107,64 @@ I materiali utilizzati sono:
   \item 9 ascensori
 \end{itemize}
 
+\vspace{0.7em}
+
 \subsection{Prospetti}
-% \begin{figure}[h]
-%   \includegraphics[width=\textwidth]{prospetto_frontale.jpg}
-%   \caption*{Prospetto frontale}
-% \end{figure}
 \subsubsection{Prospetto frontale}
 \includegraphics[width=\textwidth]{prospetto_frontale.jpg}
-La facciata principale, imponente e austera, è aperta da un triplice portale d'accesso che precede il vestibolo di smistamento. \\
-Il portale è alto 25 metri ed è sormontato da un'epigrafe giustinianea, che è l'unico elemento decorativo del coronamento. \\
+La facciata principale, imponente e austera, è aperta da un triplice portale d'accesso alto 25 metri che precede il vestibolo di smistamento. \\
 È inoltre presente una successione a ritmo serrato di finestre alte 8 metri.
 
-
-\subsubsection{Prospetto laterale su via Manara}
-\begin{center}
-\includegraphics[scale=0.2]{prospetto_manara.jpg}
-\end{center}
-
-\subsubsection{Prospetto su via San Barnaba}
-\begin{center}
-\includegraphics[scale=0.2]{prospetto_barnaba.jpg}
-\end{center}
+\subsubsection{Altri prospetti}
+\begin{figure}[H]
+  \centering
+  \subcaptionbox*{Torre, via Freguglia}{%
+    \includegraphics[scale=0.3]{torre.jpg}%
+  }\qquad
+  \subcaptionbox*{Prospetto laterale, via Manara}{%
+    \includegraphics[scale=0.3]{prospetto_manara.jpg}
+  }\qquad
+  \subcaptionbox*{Facciata posteriore, via San Barnaba}{%
+    \includegraphics[scale=0.3]{prospetto_barnaba.jpg}%
+  }
+\end{figure}
+All'angolo tra \textit{via Freguglia} e \textit{via San Barnaba} è presente la torre, alta 61 metri e di 7 piani. In entrambe le facciate laterali e in quella posteriore sono presenti dei portali d'accesso minori, che riprendono quello principale, e una lunga successione di finestre. \\
+La facciata posteriore, diveramente da quelle laterali, non ha un andamento rettilineo e si può suddividere in tre parti: una centrale e due laterali angolate.
 
 \newpage
 \section{Analisi formale}
+L'unico elemento decorativo della facciata frontale è un'epigrafe giustinianea che sormonta il portale d'accesso.
+
+\vspace{1em}
+
+Sulle facciate laterali e su quella posteriore sono presenti diversi bassorilievi, realizzati da \textit{Fausto Melotti} e \textit{Corrado Vigni}.
+
+\vspace{1em}
+
+\subsection{Coppia di angeli con le tavole della legge}
+
+\vspace{1em}
+
+\begin{center}
+    \includegraphics[scale=0.7]{bassorilievo.png}
+\end{center}
+
+\vspace{1.5em}
+
+Il bassorilievo, collocato a destra rispetto al portale d'accesso della facciata posteriore, fu realizzato da \textit{Corrado Vigni} nel 1939. Esso rappresenta in modo quasi neoclassico due angeli che custodiscono le tavole della legge. Sotto il bassorilievo è presente un'epigrafe in latino.
+
+\subsection{Giustizia armata con la legge}
+\begin{center}
+\includegraphics[scale=0.45]{mosaico.jpg}
+\end{center}
+Il mosaico fu realizzato da \textit{Mario Sironi} nel 1936 ed è situato nell'aula della Prima Sezione della Corte d'Assise e d'Appello. I personaggi sono allegorie della Verità, della Giustizia e della Forza (l'unica figura maschile).
+
+\subsection{La giustizia tra cielo e terra}
+\begin{center}
+\includegraphics[scale=0.35]{dipinto.png}
+\end{center}
+Il dipinto è un olio su tela di \textit{Primo Conti} del 1936 e si trova in un'aula della sezione penale. Viene raffigurato il giudizio universale, e tra i personaggi si possono individuare \textit{Mussolini} e \textit{Napoleone} in attesa di essere giudicati.
+
 
 \newpage
 \section{Disegni dei progetti non realizzati}
@@ -150,11 +191,20 @@ Il portale è alto 25 metri ed è sormontato da un'epigrafe giustinianea, che è
 
 \newpage
 \section{Fonti}
+\subsection{Informazioni}
 \begin{itemize}
   \item \url{https://www.lombardiabeniculturali.it/architetture/schede/3m080-00054/}
   \item \url{https://www.lombardiabeniculturali.it/architetture/schede-complete/3m080-00054/}
-  \item \url{http://periodici.librari.beniculturali.it/PeriodicoScheda.aspx?id\_testata=22\&Start=0} - periodico numero 5 del 1930
-\item \url{https://www.giustiziamilano.it/files/storia-palazzo-giustizia.pdf} - pagine 12, 13, 14, 17, 18, 19
+  \item \url{https://www.giustiziamilano.it/files/storia-palazzo-giustizia.pdf} - Pagine 12, 13, 14, 17, 18, 19
+  \item \url{https://scopripalazzodigiustizia.it/coppia-di-angeli-con-le-tavole-della-legge/}
+  \item \url{https://ca-milano.giustizia.it/it/mosaico_sironi.page}
+\end{itemize}
+
+\subsection{Immagini}
+\begin{itemize}
+  \item \url{http://periodici.librari.beniculturali.it/PeriodicoScheda.aspx?id\_testata=22\&Start=0} - Periodico mensile \textit{"Rassegna di architettura"}, numero 5 del 1930
+  \item \url{https://www.lombardiabeniculturali.it/architetture/schede/3m080-00054/}
+  \item Le foto della pianta, del bassorilievo e del dipinto sono state realizzate da me.
 \end{itemize}
 
 \end{document}
